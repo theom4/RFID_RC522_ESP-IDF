@@ -1,6 +1,6 @@
 # RFID_RC522_ESP-IDF
 This library provides everything for interfacing with the MIFARE cards.
-You can check this video to see how to use it :
+You can check this video to see how to use it : https://youtu.be/0Aga1kvU2Dw
 
 
 Make sure you follow the following sequence when writing/reading from the card : 

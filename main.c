@@ -41,8 +41,7 @@ void app_main(void)
     //Attach the RFID to the SPI bus
     ret=spi_bus_add_device(SPI2_HOST, &devcfg, &spi);
     assert(ret==ESP_OK);
-    // PICC_HaltA(spi);
-    // PCD_StopCrypto1(spi);
+   
     PCD_Init(spi);
     while(1)
     {
